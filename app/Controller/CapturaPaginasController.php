@@ -21,11 +21,8 @@ class CapturaPaginasController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-<<<<<<< HEAD
-		if($this->request['params']['action']  == 'ver') {
-=======
+
 		if($this->request->params['action']  == 'ver') {
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
 			$this->Auth->allow();
 		}
 	}
