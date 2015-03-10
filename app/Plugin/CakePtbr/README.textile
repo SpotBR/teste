@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+h1. CakePHP em português
+
+Caso você tenha dúvidas, elogios, reclamações, sugestões, etc., acesse o
+"Grupo de discursão CakePHP-PT":http://groups.google.com/group/cakephp-pt e envie uma mensagem.
+
+Este plugin foi desenvolvido para a versão 2.0 do CakePHP.
+
+Sobre a utilização deste plugin, consulte a documentação no GitHub:http://wiki.github.com/jrbasso/cake_ptbr/
+
+Se você usa o Ohloh, diga que usa o projeto: http://www.ohloh.net/p/cake_ptbr
+=======
+h1. CakePHP em português
+
+Caso você tenha dúvidas, elogios, reclamações, sugestões, etc., acesse o
+"Grupo de discursão CakePHP-PT":http://groups.google.com/group/cakephp-pt e envie uma mensagem.
+
+Este plugin foi desenvolvido para a versão 2.0 do CakePHP.
+
+Sobre a utilização deste plugin, consulte a documentação no GitHub:http://wiki.github.com/jrbasso/cake_ptbr/
+
+Se você usa o Ohloh, diga que usa o projeto: http://www.ohloh.net/p/cake_ptbr
+>>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
