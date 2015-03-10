@@ -68,13 +68,8 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-<<<<<<< HEAD
-		'login' => 'root',
-		'password' => '',
-=======
 		'login' => 'escritorio',
 		'password' => 'esc36570',
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
 		'database' => 'escritorio',
 		'prefix' => '',
 		'encoding' => 'utf8',
