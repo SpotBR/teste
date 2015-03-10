@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 echo $this->Element('arvore');
@@ -37,29 +36,3 @@ foreach($arvore as $empresa) {
 		</div>
 	</div>	
 </div>
-=======
-<h1>Minha rede</h1>
-
-<?php
-	echo $this->Element('arvore');
-	foreach($arvore as $empresa) {
-		if(empty($empresa['Arvore'])) {
-			continue;
-		}
-
-?>
-		<h3>Rede de <?php echo $empresa['Empresa']['nome'] ?></h3>
-		<?php
-			$disponiveis = array();
-			$i = 0;
-			expandirArvore(array($empresa['Arvore']), 0, $disponiveis, $i);
-		?>
-		<div id="arvore-wrapper">
-			<div id="arvore"></div>
-		</div>
-		<div class="clearfix"></div>
-<?php
-	}
-
-?>
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
