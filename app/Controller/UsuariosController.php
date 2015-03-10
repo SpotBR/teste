@@ -83,7 +83,6 @@ class UsuariosController extends AppController {
 			$saved = $this->Usuario->save($this->request->data);
 			if ($saved) {
 				$this->Session->write('cadastro.Usuario', $saved['Usuario']);
-<<<<<<< HEAD
 				
 				// Mini gambiarra para fazer o cadastro em outros sistemas
 				// Será melhorado depois, de forma que evite problemas de segurança
@@ -139,8 +138,7 @@ class UsuariosController extends AppController {
 				
 				curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 				$output = curl_exec($ch);
-				echo $output;
-				
+
 				curl_setopt($ch, CURLOPT_URL, "http://emkt.programainovar.com.br/backend/index.php/customers/create");
 				$nomeArray = explode(' ',$this->request->data['Usuario']['nome']);
 				$data = array(
@@ -158,9 +156,7 @@ class UsuariosController extends AppController {
 				$output = curl_exec($ch);
 				curl_close($ch);
 				
-=======
 				return $this->redirect(array('action' => 'cadastrarEmpresa'));
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
 			} else {
 				$this->Session->setFlash(__('Seu cadastro não pode ser feito. Tente novamente mais tarde'), 'alert', array('plugin' => 'BoostCake', 'class' => 'alert-error'));
 			}
