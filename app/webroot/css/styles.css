@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*!
  * Avant v1.3 (c) by The Red Team
  * Powered by Bootstrap v3.2 and FontAwesome 4.1
@@ -14957,7 +14956,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 .input-group-addon:not(:first-child) {
   border-left: 0;
 }
-=======
 
 #content, #page-wrapper {
 	min-height: 500px;
@@ -14972,4 +14970,3 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 .jOrgChart table {
 	margin: 0 auto;
 }
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
