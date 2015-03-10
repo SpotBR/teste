@@ -111,11 +111,8 @@ class CapturaPagina extends AppModel {
 	);
 
 	public function duplicated($field) {
-<<<<<<< HEAD
-		$count = $this->find('count', array('conditions' => array('slug' => $field['slug'], 'id !=' => $this->id)));
-=======
+
 		$count = $this->find('count', array('conditions' => array('CapturaPagina.slug' => $field['slug'], 'CapturaPagina.id !=' => $this->id)));
->>>>>>> bcc68f043a4d7a3d010da4152340245418c42e5f
 		return $count == 0;
 	}
 }
